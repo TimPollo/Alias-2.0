@@ -10,3 +10,7 @@
 .btn-test {background:#1f5c58;color:#fff;white-space:nowrap;padding:12px 14px;font-size:11px;border:0;}
 .btn-test:disabled {opacity:.55;cursor:not-allowed;}
 @media(max-width:600px){.delivery-status{flex-direction:column;align-items:stretch;padding:15px;}.btn-test{width:100%;}}
+
+/* GitHub Pages demo: prominent, explicit simulation status */
+.delivery-status.demo strong{color:#824a16;}
+.delivery-status.demo{background:#fff9eb;border-color:#f0d59c;}
